@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trirong';
+}
+body{
+    background-attachment: fixed;
+    background-image: url("./assets/background-img.webp");
+    background-size: cover;
+
+}
+.container{
+    background: rgb(200, 205, 139);
+    height: 80vh;
+    max-width: 30%;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: auto;
+    padding: 50px 0;
+    
+}
+.wrap{
+    padding: 50px 0;
+    text-align: center;
+    
+}
+h2{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+#increment-btn{
+    background: rgb(175, 16, 165);
+}
+#save-btn{
+    background: rgb(58, 171, 58);
+}
+ p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+} 
+
+@media only screen and (max-width: 600px) {
+    #increment-btn, #save-btn {
+      width: 80px;
+    }
+  }
